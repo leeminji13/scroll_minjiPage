@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    line-height: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mjinner{
+    max-width: 1420px;
+    margin: 0 auto;
+}
+html,body{
+    font-family: 'gl','Gothic A1' ;
+    font-weight: 100;
+}
