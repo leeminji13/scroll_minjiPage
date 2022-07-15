@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -11,28 +12,69 @@
     <meta property="og:image" content="/minji/img/ogimg.png" />
 
     <title>귀사가 찾던 인재 이민지</title>
+    <!-- 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/minjiscroll/css/common.css?ver<?php echo time();?>">
     <link rel="stylesheet" href="/minjiscroll/css/font.css">
+
+    <!-- 스와이퍼 플러그인 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="/minjiscroll/css/common.css?ver<?php echo time();?>">
     <link rel="stylesheet" href="/minjiscroll/css/scroll.min.css?ver<?php echo time();?>">
+    
+    <!-- 스와이퍼 플러그인 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/minjiscroll/js/swiper.js?ver<?php echo time();?>"></script>
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/3f7f5e76f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="scroll">
         <div class="wrap">
-            <div class="pagenation">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p class="navi">FREELANCER</p>
-                <p class="navi">PROJECT</p>
-                <p class="navi">ABOUT ME</p>
-                <p class="navi">CONTACT</p>
+            <div class="scrollImg">
+                <img src="/minjiscroll/img/scroll.svg" alt="스크롤">
+                <p>scroll</p>
             </div>
-            <div class="main">
+            <section id="scroll1" class="main">
+                <div id="quick">
+                    <ul class="quickWrap">
+                        <li class="quick1 quick2">
+                            <i class="fa-solid fa-burger"></i>
+                            <ul class="hoverquick navi">
+                                <li>
+                                    <a href="#scroll2">FREELANCE</i></a>
+                                </li>
+                                <li>
+                                    <a href="#scroll3">PROJECT</a>
+                                </li>
+                                <li>
+                                    <a href="#scroll6">ABOUT ME</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="quick1">
+                            <i class="fa-solid fa-plus"></i>
+                            <ul class="hoverquick">
+                                <li>
+                                    <a href="https://github.com/leeminji13" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/m__mingji" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://open.kakao.com/o/sbCALike" target="_blank"><i class="fa-regular fa-comments"></i></a>
+                                </li>
+                                <li>
+                                    <a href="tel:010-3740-2207" target="_blank"><i class="fa-solid fa-phone-flip"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
                 <div class="logo">
                     <div class="logoimg">
-                        <img src="/minjiscroll/img/minji_logo.svg" alt="">
+                        <img src="/minjiscroll/img/minji_logo.svg" alt="로고">
                     </div>
                     <p>
                         <a href="http://validator.kldp.org/check?uri=referer"
@@ -56,10 +98,325 @@
                         센스있는 퍼블리셔!
                     </span>
                 </div>
-            </div>
-            <div class="freelancer"></div>
-            <div class="project"></div>
-            <div class="gnuboard"></div>
+            </section>
+            <section id="scroll2" class="freelancer">
+                <div class="mjinner">
+                    <div class="top">
+                        <div class="swiper-button-prev">
+                            <img src="/minjiscroll/img/prev.png" alt="이전버튼">
+                        </div>
+                        <img src="/minjiscroll/img/freelancer.png" alt="프리랜스">
+                        <div class="swiper-button-next">
+                            <img src="/minjiscroll/img/next.png" alt="다음버튼">
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="text">
+                                    <p>
+                                        6개월 훈련기간 동안<br class="br1"/>
+                                        <span>프리랜서 팀 작업</span>까지<br/>
+                                        Git Hub를 통한 소통과<br class="br1"/>
+                                        배려가 기반이된 협력으로<br/>
+                                        실무 준비 완료!        
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <div class="linkbtn">
+                                        <div class="btn">
+                                            <a href="https://drive.google.com/file/d/1rOJ6Sag8CJ-X7ufPZ4hMylmjSdRJDvX8/view?usp=sharing" target="_blank">제작보고서</a>
+                                        </div>
+                                        <div class="btn">
+                                            <a href="http://www.national-sports.co.kr/joy/" target="_blank">웹사이트</a>
+                                        </div>
+                                    </div>
+                                    <div class="flexContent">
+                                        <img src="/minjiscroll/img/inlinekid.png" alt="인라인일러스트">
+                                        <ul class="contentText">
+                                            <li>
+                                                <p>CLIENT</p>
+                                                <span>내셔널 스포츠</span>
+                                            </li>
+                                            <li>
+                                                <p>PERIOD</p>
+                                                <span>2주</span>
+                                            </li>
+                                            <li>
+                                                <p>TYPE</p>
+                                                <span>반응형 웹</span>
+                                            </li>
+                                            <li>
+                                                <p>POSITION</p>
+                                                <span>퍼블리싱</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide2">
+                                    <div class="leftText">
+                                        <p>
+                                            관리자가 전문지식 없이 페이지를 관리 할 수 있도록 <br/><span>백엔드로 그누보드를 이용하여</span> 제작하였습니다.<br/>
+                                            <span>메인페이지 퍼블리싱</span>을 담당하였습니다.<br/>
+                                            <span>90%이상의 컨텐츠를 최근게시판으로 연동</span>하여<br/>
+                                            관리자가 쉽게 내용을 변경할 수 있게 제작하였으며<br/>
+                                            부트스트랩 그리드 시스템을 이용하여<br/>
+                                            유지보수가 원할하게 제작하였습니다.<br/>
+                                            <span>구글 애널리틱스와 seo최적화</span> 까지 완료하였습니다.<br/>
+                                            <br/>
+                                            #그누보드 #php #베이직테마수정 #게시판수정
+                                        </p>
+                                    </div>
+                                    <div class="rightImg">
+                                        <div class="imgWrap">
+                                            <img src="/minjiscroll/img/nationalmain.JPG" alt="내셔널스포츠">
+                                        </div>
+                                        <div class="mobileAbs">
+                                            <img src="/minjiscroll/img/namobile1.PNG" alt="내셔널 모바일">
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="scroll3" class="project pro">
+                <div class="mjinner">
+                    <div class="perproject">
+                        <img src="/minjiscroll/img/personal.png" alt="개인프로젝트">
+                    </div>
+                    <div class="proWrap bucheon">
+                        <div class="proImg buImg">
+                            <img src="/minjiscroll/img/bucheon.JPG" alt="부천페이지">
+                            <div class="proBtn hoverBtn">
+                                <a href="https://dlalswl9413.cafe24.com/bucheon/" target="_blank">페이지 보기</a>
+                            </div>
+                        </div>
+                        <div class="proText buText">
+                            <p class="proTitle buTitle">
+                                부천 소개 페이지 제작
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>하드코딩 작업</p>
+                                </li>
+                                <li>
+                                    <p>*라이브러리 사용 없이 순수 자바스크립트</p>
+                                </li>
+                                <li>
+                                    <p>디자인 : 100%</p>
+                                </li>
+                                <li>
+                                    <p>퍼블리싱 : 100%</p>
+                                </li>
+                                <li>
+                                    <p>제작기간 : 4일</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="proWrap ann">
+                        <div class="proImg annImg">
+                            <img src="/minjiscroll/img/annberry.jpg" alt="앤베리">
+                            <div class="proBtn">
+                                <a href="https://dlalswl9413.cafe24.com/annberry/" target="_blank">페이지 보기</a>
+                            </div>
+                        </div>
+                        <div class="proText annText">
+                            <p class="proTitle annTitle">
+                                프랑스식 디저트인 딸기 콩포트<br/>
+                                '앤베리'의 메인페이지 제작 
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>하드코딩 작업</p>
+                                </li>
+                                <li>
+                                    <p>디자인 : 100%</p>
+                                </li>
+                                <li>
+                                    <p>퍼블리싱 : 100%</p>
+                                </li>
+                                <li>
+                                    <p>제작기간 : 4일</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="scroll4" class="adpage">
+                <div class="mjinner">
+                    <div class="adBox">
+                        <div class="adText">
+                            <div class="advertising">
+                                <img src="/minjiscroll/img/ad1.png" alt="광고페이지">
+                            </div>
+                            <p class="adTitle">
+                                부트스트랩 그리드 시스템을 이용하여<br/>
+                                제작한 광고페이지
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>부트스트랩4.5v / 5v 사용</p>
+                                </li>
+                                <li>
+                                    <p>디자인 : 클립아트코리아</p>
+                                </li>
+                                <li>
+                                    <p>퍼블리싱 : 100%</p>
+                                </li>
+                                <li>
+                                    <p>제작기간 : 평균2일</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="adImg proImg">
+                            <img src="/minjiscroll/img/publie.png" alt="광고퍼블리싱">
+                            <div class="proBtn">
+                                <a href="https://dlalswl9413.cafe24.com/marketing/boot4.5/" target="_blank">페이지 보기</a>
+                            </div>
+                        </div>
+                        <div class="adImg proImg">
+                            <img src="/minjiscroll/img/publie1.png" alt="광고퍼블리싱">
+                            <div class="proBtn">
+                                <a href="https://dlalswl9413.cafe24.com/marketing/boot5/" target="_blank">페이지 보기</a>
+                            </div>
+                        </div>
+                        <div class="adImg proImg">
+                            <img src="/minjiscroll/img/publie2.png" alt="광고퍼블리싱">
+                            <div class="proBtn">
+                                <a href="https://dlalswl9413.cafe24.com/marketing/tongro/" target="_blank">페이지 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="scroll5" class="">
+                <div class="gnuboard mjinner">
+                        <div class="gnuFlex">
+                            <div class="gnu">
+                                <img src="/minjiscroll/img/gnuboard.png" alt="그누보드">
+                            </div>
+                            <div class="gnuTopText">
+                                <p class="innerText">
+                                    그누보드를 백앤드로 사용하여<br/>
+                                    관리자가 전문지식 없이 페이지 관리 가능
+                                </p>
+                            </div>
+                        </div>
+                        <div class="gnuImg">
+                            <div class="gnuPc">
+                                <div class="gnuBorder proImg">
+                                    <img src="/minjiscroll/img/bowraum.JPG" alt="바우라움pc">
+                                    <div class="gnulink proBtn">
+                                        <a href="https://dlalswl9413.cafe24.com/gnuboard5/" target="_blank">
+                                            <p>
+                                                디자인부터 퍼블리싱까지 단독 작업한<br/>
+                                                "바우라움" 메인페이지 입니다.
+                                            </p>
+                                            <span>페이지 보기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gnuabs">
+                                <img src="/minjiscroll/img/gnumobile.PNG" alt="바우라움mobile">
+                            </div>
+                        </div>
+                        <div class="gnubottom">
+                            <p>
+                                <span>90%이상의 컨텐츠를 최근게시판으로 연동</span>하여<br/> 
+                                관리자가 쉽게 내용을 변경할 수 있게 제작하였으며<br/>
+                                <span>부트스트랩</span> 그리드 시스템을 이용하여<br/>
+                                유지보수가 원할하게 제작하였습니다.
+                            </p>
+                        </div>
+                    </div>
+            </section>
+            <section id="scroll6" class="aboutMe">
+                <div class="mjinner">
+                    <div class="meTop">
+                        <div class="meabs">
+                            <img src="/minjiscroll/img/aboutme.png" alt="나의소개">
+                        </div>
+                        <div class="meImg">
+                            <img src="/minjiscroll/img/about2.png" alt="프로필사진">
+                        </div>
+                        <ul class="meInfo">
+                            <li>이민지</li>
+                            <li>1994.11.08</li>
+                            <li>010.3740.2207</li>
+                            <li>minjis2s2s2@gmail.com</li>
+                            <li>부천 거주</li>
+                        </ul>
+                        <div class="license">
+                            <p class="liSub">-LICENSE-</p>
+                            <ul>
+                                <li>
+                                    <p>웹디자인기능사</p>
+                                    <span>2022.04</span>
+                                </li>
+                                <li>
+                                    <p>GTQ그래픽기술가격 1급</p>
+                                    <span>2022.05</span>
+                                </li>
+                                <li>
+                                    <p>2종 운전면허증</p>
+                                    <span>2020.11</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sensible">
+                <div class="mjinner">
+                    <div class="tamText tam">
+                        <p class="textAbs">
+                            sensible
+                        </p>
+                        <span class="number">1.</span>
+                        <p class="textcon"> 
+                            전시,영화,공연을 좋아합니다.<br/>
+                            문화생활과 트렌디한 것들을 <br class="dnone"/>놓치지 않으려고 하며<br/>
+                            그만큼 <span class="senlignt">센스를 겸비</span>하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="tamText act">
+                        <p class="textAbs actAbs">
+                            possibility
+                        </p>
+                        <p class="textcon"> 
+                            손으로 하는 것들은<br class="dnone"/>
+                            모든 금방 배우고 잘합니다.<br/>
+                            키보드와 마우스로 만들어질<br class="dnone"/>
+                            무궁무진한 <span class="senlignt">성장 가능성</span>을<br class="dnone"/> 갖고있습니다.
+                        </p>
+                        <span class="number number2">.2</span>
+                    </div>
+                </div>
+            </section>
+            <section class="sensible last">
+                <div class="mjinner">
+                    <div class="tamText camera">
+                        <p class="textAbs lastAbs">
+                            values
+                        </p>
+                        <span class="number">3.</span>
+                        <p class="textcon lastp"> 
+                            <span class="senlignt">"성실, 긍정, 초심"</span> 이 세 가지는<br class="dnone"/>
+                            저를 발전시키는 원동력입니다.<br/>
+                            귀사와 함께 발전하길 희망합니다.
+                        </p>
+                    </div>
+                    <p class="bye">끝까지 읽어 주셔서 감사합니다.</p>
+                </div>
+            </section>
         </div>
     </div>
     <!-- 자바스크립트 -->
